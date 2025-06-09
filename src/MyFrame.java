@@ -1,5 +1,5 @@
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.*;//to też
 import javax.swing.*;
 public class MyFrame extends JFrame{
     public MyFrame(){

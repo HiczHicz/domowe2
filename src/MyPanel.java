@@ -18,7 +18,7 @@ public class MyPanel extends JPanel {
             double x = Math.random() * 3.0 - 1.5;
             double y = Math.random() * 3.0 - 1.5;
             return new double[]{x, y};
-        }).limit(PUNKTY).forEach(point -> {
+        }).limit(PUNKTY).forEach(point -> {//spróbować to zrobić bez tablicy
             double x = point[0];
             double y = point[1];
             Complex z = new Complex(x, y);
